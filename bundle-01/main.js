@@ -14,11 +14,10 @@
 //   console.log(i);
 // }
 
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
+// for (let i = 0; i < 5; i++) {
+//   console.log(i);
+// }
 /*
-
     !1- Che cosa fa questo codice?
     attravreso un ciclo for stampa in console il valore di i che ad ogni ciclo aumenta di uno
     in questo caso i numeri stampati in console partono da 0 e arrivano a 4
@@ -36,15 +35,14 @@ for (let i = 0; i < 5; i++) {
 //   return num;
 // }
 
-function addIfEven(num) {
-  if (num % 2 === 0) {
-    return num + 5;
-  }
-  return num;
-}
+// function addIfEven(num) {
+//   if (num % 2 === 0) {
+//     return num + 5;
+//   }
+//   return num;
+// }
 
 /*
-
     !1- Che cosa fa questo codice?
     la funzione riceve come argomento un dato num (non sono presenti controlli su cosa sia il valore inserito - numero - stringa etc...)
     applica al dato ricevuto una condizione:
@@ -64,11 +62,12 @@ function addIfEven(num) {
 //         console.log(i);
 //     }
 // }
-function loopToFive() {
-  for (let i = 0; i < 5; i++) {
-    console.log(i);
-  }
-}
+
+// function loopToFive() {
+//   for (let i = 0; i < 5; i++) {
+//     console.log(i);
+//   }
+// }
 
 /*
 
@@ -84,17 +83,17 @@ function loopToFive() {
 */
 
 // ESERCIZIO 4 (suggerimento: ci sono 7 errori)
-// function displayEvenNumbers() {
-//     let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
-//     let evenNumbers = [];
-//     for (let i = 0; i < numbers.length - 1; i++;) {
-//         if (numbers % 2 = 0); {
-//             evenNumbers.push(i);
-//         }
-//         return evenNumbers;
-//     }
-// }
-// displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
+//  function displayEvenNumbers() {
+//      let numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+//      let evenNumbers = [];
+//      for (let i = 0; i < numbers.length - 1; i++;) {
+//          if (numbers % 2 = 0); {
+//              evenNumbers.push(i);
+//          }
+//          return evenNumbers;
+//      }
+//  }
+//  displayEvenNumbers(); // dovrebbe restituire [2,4,6,8]
 
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
 function displayEvenNumbers(numbers) {
